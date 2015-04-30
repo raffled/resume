@@ -1,0 +1,121 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy CV/Resume
+% XeLaTeX Template
+% Version 1.0 (5/5/2014)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Debarghya Das (http://www.debarghyadas.com)
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\lastupdated % Print the Last Updated text at the top right
+
+\namesection{Doug}{Raffle}{ % Your name
+  \urlstyle{same}\url{http://stat.wvu.edu/~draffle/} \\% Your website, LinkedIn profile or other web address
+  \href{mailto:raffled@gmail.com}{raffled@gmail.com} | 724.518.7446 % Your contact information
+}
+
+\section{Portfolio}
+\begin{flushleft}
+This is a collection of projects I've worked on that I think are
+particularly cool. Whether created for class projects, formal
+research, or just for fun (and practice), I hope you find them as
+interesting as I did. Feel free to browse the projects on my
+Github page (\urlstyle{same}\url{http://www.github.com/raffled/}), or take the guided tour
+of selected projects below. Direct links to the formatted documents
+(Shiny apps, knitted HTML, or PDF) are provided, as well as to the
+specific repositories containing the source code.\\
+\vspace{8pt}
+
+For a more interactive version that's being constantly updated, you
+can also check out the portfolio section of my website
+(\urlstyle{same}\url{http://stat.wvu.edu/~draffle/portfolio.html})
+
+\vspace{10pt}
+\runsubsection{Sentiment Analysis}\\
+\descript{Mylan Pharmaceuticals}
+While I was toying around with topics to analyze on Twitter, a friend
+of mine who works for Mylan pointed me towards the stories that were
+flying around about bidding wars between  three generic pharmaceutical 
+companies: Mylan, Perrigo, and Teva.  Mylan is a pillar of the
+Morgantown community, so their being bought out would be huge news in
+Morgantown.\\
+\vspace{10pt}
+
+We pulled the most recent tweets with the hashtag \#Mylan on April 24,
+2015 and performed sentiment analysis to see what the Twittersphere
+had to say about the generics wars.\\
+\vspace{10pt}
+
+\end{flushleft}
+\begin{tabular}{l  l}
+  Analysis: & \urlstyle{same}\url{http://stat.wvu.edu/~draffle/portfolio/mylanSentiment.html}\\
+  Source Code: & \urlstyle{same}\url{http://github.com/raffled/Sentiment/}\\
+\end{tabular}
+
+
+\vspace{10pt}
+\begin{flushleft}
+\runsubsection{USGS Seismic Data}\\
+The USGS data set includes information about 20,000 global seismic events
+that occured from January 1, 2015 to April 15, 2015.\\
+\vspace{10pt}
+
+\descript{Interactive Map}
+First, I created an interactive map showing the location of the seismic events using 
+\urlstyle{same}\href{http://www.rstudio.com}{RStudio's}
+\urlstyle{same}\href{http://shiny.rstudio.com/}{Shiny}package.  Each
+point represents one event.  Events are colored according to event
+type (earthquake, exposion, etc.) and scaled by magnitude. Because
+plotting all the events takes a while, the map is restricted to the
+8,480 events which occured in the six weeks of March 1, 2015 - April
+15, 2015. \\
+\vspace{10pt}
+
+\descript{Exploratory Data Analysis}
+This EDA is a basic exploration of the USGS data set, written in R
+Markdown, including numerical and graphical summaries of the data
+set.\\
+\vspace{10pt}
+
+\descript{Classification}
+First, I wanted to play around with some classification models, so I
+wanted to see if the three variable describing the seismic event could
+be used to predict the type of event. While not a particularly 
+practical problem (if there's a large seismic even near me, I care
+more about the magnitude than what caused it), it is particularly
+challenging because of the nature of the data: 96.4\% of the
+observations are earthquakes.  I tuned several different models and
+compared their results.\\
+\vspace{10pt}
+
+\end{flushleft}
+\begin{tabular}{l  l}
+  Map: & \urlstyle{same}\url{http://raffle.shinyapps.io/seismic}\\
+  EDA: & \urlstyle{same}\url{http://stat.wvu.edu/~draffle/portfolio/seismicEDA.html}\\
+  Classification: & \urlstyle{same}\url{http://stat.wvu.edu/~draffle/portfolio/seismicModelling.html}\\
+  Source Code: & \urlstyle{same}\url{http://github.com/raffled/seismic/}\\
+\end{tabular}
+
+
+
+\end{document}
