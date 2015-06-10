@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.1.14)  10 JUN 2015 13:44
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.1.14)  10 JUN 2015 13:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -993,8 +993,10 @@ LaTeX Font Warning: Font shape `EU1/Lato-Bol(0)/bx/n' undefined
 . 
 . This font family consists of the following shapes:
 .................................................
-Missing character: There is no ̃ in font [fonts/lato/Lato-Lig]/ICU:script=latn;
-language=DFLT;color=2B2B2BFF ;!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 68.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 68.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1040,10 +1042,6 @@ LaTeX Font Warning: Font shape `EU1/Raleway-Medium(0)/bx/n' undefined
 (Font)              using `EU1/Raleway-Medium(0)/m/n' instead on input line 109
 .
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 112.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 112.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1191,10 +1189,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 267.
  ) 
 Here is how much of TeX's memory you used:
- 21366 strings out of 493918
- 394678 string characters out of 6150563
+ 21365 strings out of 493918
+ 394670 string characters out of 6150563
  462388 words of memory out of 5000000
- 24471 multiletter control sequences out of 15000+600000
+ 24470 multiletter control sequences out of 15000+600000
  6108 words of font info for 56 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  53i,8n,90p,10386b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
