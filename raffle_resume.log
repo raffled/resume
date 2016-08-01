@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.1.14)  16 JUL 2016 16:35
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2015.1.14)  1 AUG 2016 18:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1210,14 +1210,14 @@ LaTeX Font Warning: Font shape `EU1/Raleway-Medium(0)/bx/n' undefined
 . 
 . This font family consists of the following shapes:
 .................................................
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 259.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
  (./raffle_resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 259.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 259.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 258.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 258.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1226,7 +1226,7 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 259.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 258.
  ) 
 Here is how much of TeX's memory you used:
  21369 strings out of 493918
