@@ -151,16 +151,15 @@ SQL\\
 \section{Experience}
 \runsubsection{Mylan Labs}
 \descript{| Specialist, Commercial Analytics}
-\location{Sept. 2015 - Jan. 2017 | Morgantown, WV}
+\location{Sept. 2015 - Present | Morgantown, WV}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightitemize}
-\item Acted as an internal consultant, using statistical models and machine
-  learning algorithms to 
+\item Act as an internal consultant, using statistical models and machine learning algorithms to
   analyze Mylan's products, customers, and competitors using R and
   other statistical packages.
-\item Designed presentations summarizing Mylan's major product markets,
+\item Design presentations summarizing Mylan's major product markets,
   including product and competitor performance, for senior leadership.
-\item Modernized reporting and presentation workflows using Tableau and
+\item Modernize reporting and presentation workflows using Tableau and
   Shiny to create streamlined, interactive dashboards.
 \end{tightitemize}
 \sectionspace % Some whitespace after the section
@@ -169,9 +168,9 @@ SQL\\
 
 \runsubsection{California University of Pennsylvania}
 \descript{| Lecturer}
-\location{Jan. 2016 - Dec. 2016 | California, PA}
+\location{Jan. 2016 - Present | California, PA}
 \begin{tightitemize}
-\item Used real world experience as a data scientist to introduce
+\item Use real world experience as a data scientist to introduce
   students from the business college to the concepts they'll need to
   work in a modern, data-driven  business environment.
 \end{tightitemize}
