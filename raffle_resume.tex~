@@ -31,7 +31,7 @@
 
 \namesection{Doug}{Raffle}{ % Your name
   \bf{\href{mailto:raffled@gmail.com}{raffled@gmail.com}} $\;$|$\;$
-  \urlstyle{same}\url{http://stat.wvu.edu/~draffle/} $\;$|$\;$
+  \urlstyle{same}\url{www.dougraffle.com} $\;$|$\;$
   \bf{724.518.7446}
 }
 
@@ -66,7 +66,7 @@
 %------------------------------------------------
 
 \section{Links} 
-{\bf Portfolio://}\\ \href{http://stat.wvu.edu/~draffle/portfolio.html}{stat.wvu.edu/$\sim$draffle/portfolio.html}\\
+{\bf Portfolio://}\\ \href{http://www.dougraffle.com/portfolio.html}{dougraffle.com/portfolio.html}\\
 {\bf Github://}\\ \href{http://github.com/raffled/}{github.com/raffled/}\\
 {\bf LinkedIn://}\\ \href{https://www.linkedin.com/in/raffled}{linkedin.com/in/raffled} \\
 \sectionspace % Some whitespace after the section
@@ -88,21 +88,21 @@ Text Mining\\
 Technical Writing/Presentation
 
 \sectionspace % Some whitespace after the section
-\vspace{5pt}
+\vspace{4pt}
 %------------------------------------------------
 % Technologies
 %------------------------------------------------
 \subsection{Technologies/Platforms}
-Microsoft Office\\
-JMP\\
+RStudio\\
+Shiny/RStudio Connect\\
+H$_2$O.ai\\
+Spark\\
 Hadoop/MapReduce\\
 Linux/Unix\\
-Tableau\\
-RStudio\\
-Shiny
+Tableau
 
 \sectionspace % Some whitespace after the section
-\vspace{5pt}
+\vspace{4pt}
 %------------------------------------------------
 % Programming
 %------------------------------------------------
@@ -112,12 +112,13 @@ R\\
 HTML/XML\\
 \LaTeX\\
 Markdown/R Markdown\\
-\vspace{5pt}
+\vspace{4pt}
 \location{\textbf{Familiar}}
 JavaScript\\
 LISP\\
 Python\\
 SQL\\
+Java
 
 
 %----------------------------------------------------------------------------------------
@@ -149,10 +150,31 @@ SQL\\
 %------------------------------------------------
 
 \section{Experience}
+\runsubsection{The Hartford}
+\descript{| Data Scientist}
+\location{Feb. 2017 - Present | Hartford, CT}
+\vspace{\topsep}
+\begin{tightitemize}
+\item Fit machine learning algorithms to predict customer characteristics using
+  large Third Party Data sources.
+\item Designed and productionalized model scoring engine which 
+  served predictions from a suite of machine learning algorithms with $<500$ms response time
+  via a SOAP web service.
+\item Used a variety of statistical models and machine learning techniques to
+  provide internal business partners with insights about our customers and
+  external partners.
+\item Created and ran several training sessions on a variety of modern data
+  science topics and data technologies for large-scale computing.
+\item Mentored several interns on data science best-practices, nurturing
+  business relationships, and presentation skills.
+\end{tightitemize}
+\sectionspace
+
+%------------------------------------------------
+
 \runsubsection{Mylan Labs}
 \descript{| Specialist, Commercial Analytics}
 \location{Sept. 2015 - Jan. 2017 | Morgantown, WV}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightitemize}
 \item Acted as an internal consultant, using statistical models and machine
   learning algorithms to 
@@ -220,38 +242,7 @@ SQL\\
 \item Presented at several conferences and co-authored a paper
   explaining our methodology and results.
 \end{tightitemize}
-
 \sectionspace % Some whitespace after the section
-\vspace{-3pt}
-\section{Consulting}
-\runsubsection{Sellitti, Nogay \& McCune, PLLC}\\
-\location{June 2015 | Weirton, WV}
-\begin{tightitemize}
-\item Analyzed a survey conducted by the court to determine if
-  local news stories had biased potential jurors against the defendant in a
-  murder case.
-\item Wrote a report used as evidence in a hearing to determine if
-  outside jurors needed to be used.
-\end{tightitemize}
-
-\sectionspace % Some whitespace after the section
-
-
-%------------------------------------------------
-% Awards
-%------------------------------------------------
-\vspace{-7pt}
-\section{Awards and Grants} 
-
-\begin{tabular}{rl}
-2014 & Outstanding Graduate Teaching Assistant Award (WVU)\\
-2012 & Second Place - Student Scholarship and Creativity Day (CalU)\\
-2011 & Jesse B. Guttman Student Research Grant\\
-\end{tabular}
-
-\sectionspace % Some whitespace after the section
-
-
 
 %----------------------------------------------------------------------------------------
 
