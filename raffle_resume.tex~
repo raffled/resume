@@ -102,7 +102,7 @@ Linux/Unix\\
 Tableau
 
 \sectionspace % Some whitespace after the section
-\vspace{4pt}
+\vspace{3pt}
 %------------------------------------------------
 % Programming
 %------------------------------------------------
@@ -112,7 +112,7 @@ R\\
 HTML/XML\\
 \LaTeX\\
 Markdown/R Markdown\\
-\vspace{4pt}
+\vspace{3pt}
 \location{\textbf{Familiar}}
 JavaScript\\
 LISP\\
