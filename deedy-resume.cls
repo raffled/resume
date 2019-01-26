@@ -84,10 +84,10 @@ Last Updated on \today % Last Updated text
 \color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase {#1} \normalfont}
 
 \newcommand{\descript}[1]{ % Used for describing the subsection either on the same line or underneath
-\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}
+\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 } \normalfont}
 
 \newcommand{\location}[1]{ % Used for specifying a duration and/or location under a subsection
-\color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}
+\color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1} \normalfont}
 
 %----------------------------------------------------------------------------------------
 %	SECTION TITLE STYLING AND SPACING
