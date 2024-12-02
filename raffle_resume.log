@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.4)  1 DEC 2024 23:06
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.4)  1 DEC 2024 23:13
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -581,7 +581,7 @@ Package rerunfilecheck Info: File `raffle_resume.out' has not changed.
 Here is how much of TeX's memory you used:
  12126 strings out of 409028
  237976 string characters out of 5760983
- 711152 words of memory out of 5000000
+ 712152 words of memory out of 5000000
  34662 multiletter control sequences out of 15000+600000
  560649 words of font info for 92 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
