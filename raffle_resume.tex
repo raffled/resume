@@ -18,346 +18,178 @@
 % This template needs to be compiled with XeLaTeX.
 % 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-
 \documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
+\usepackage{enumitem} % Add to preamble
 
 \begin{document}
 
-% ----------------------------------------------------------------------------------------
 %	TITLE SECTION
-% ----------------------------------------------------------------------------------------
-
 \lastupdated % Print the Last Updated text at the top right
 
 \namesection{Doug}{Raffle}{ % Your name
-  \bf{\href{mailto:raffled@gmail.com}{raffled@gmail.com}} $\;$|$\;$
-  \urlstyle{same}\url{www.dougraffle.com} $\;$|$\;$
-  \bf{724.518.7446}
+	\bf{\href{mailto:raffled@gmail.com}{raffled@gmail.com}} $\;$|$\;$
+	\urlstyle{same}\url{www.dougraffle.com} $\;$|$\;$
+	\bf{724.518.7446}
 }
 
-% ----------------------------------------------------------------------------------------
 %	LEFT COLUMN
-% ----------------------------------------------------------------------------------------
-
 \begin{minipage}[t]{0.3\textwidth} % The left column takes up 30% of the text width of the page
+	% Education
+	\section{Education} 
+		\subsection{West Virginia University}
+		\descript{MS in Statistics\\}
+		\location{Aug. 2015 | Morgantown, WV\\}
+		\sectionspace
+		
+		\subsection{California University}
+		\subsection{of Pennsylvania}
+		\descript{BS in Computer Science\\}
+		\descript{Minor in Mathematics\\}
+		\location{May 2013 | California, PA\\}
+	\vspace{20pt}
+	
+	\section{Links} 
+		{\bf Website://}\\ \href{http://www.dougraffle.com/}{dougraffle.com/}\\
+		{\bf Github://}\\ \href{http://github.com/raffled/}{github.com/raffled/}\\
+		{\bf LinkedIn://}\\ \href{https://www.linkedin.com/in/raffled}{linkedin.com/in/raffled} \\
+	\vspace{20pt}
+	
+	\section{Skills}
+		\subsection{Leadership}
+		\begin{itemize}[leftmargin=*, nosep]
+			\item[$\cdot$] End-to-End Data Science \& AI Lifecycle
+			\item[$\cdot$] Generative \& Agentic AI Strategy
+			\item[$\cdot$] Responsible AI Practices
+			\item[$\cdot$] Innovation \& Incubation Projects
+			\item[$\cdot$] Agile Project Management
+			\item[$\cdot$] Data Science \& AI Best Practices
+			\item[$\cdot$] Community Development
+		\end{itemize}
+		
+		\vspace{15pt}
 
-  % ------------------------------------------------
-  % Education
-  % ------------------------------------------------
-
-  \section{Education} 
-  \subsection{West Virginia University}
-  \descript{MS in Statistics\\}
-  \location{Aug. 2015 | Morgantown, WV\\}
-  \sectionspace % Some whitespace after the section
-
-  % ------------------------------------------------
-
-  \subsection{California University}
-  \subsection{of Pennsylvania}
-  \descript{BS in Computer Science\\}
-  \descript{Minor in Mathematics\\}
-  \location{May 2013 | California, PA\\}
-
-    \vspace{30pt}
-
-  % ------------------------------------------------
-  % Links
-  % ------------------------------------------------
-
-  \section{Links} 
-  {\bf Website://}\\ \href{http://www.dougraffle.com/}{dougraffle.com/}\\
-  {\bf Github://}\\ \href{http://github.com/raffled/}{github.com/raffled/}\\
-  {\bf LinkedIn://}\\ \href{https://www.linkedin.com/in/raffled}{linkedin.com/in/raffled} \\
-  
-  \vspace{30pt}
-  % ------------------------------------------------
-  % Skills
-  % ------------------------------------------------
-  
-  \section{Skills}
-  \subsection{Leading}
-  End-to-End Data Science Lifecycle\\
-  Cloud-native Data Science\\
-  Generative \& Agentic AI\\
-  Responsible AI\\
-  Innovation \& Incubation Projects\\
-  Agile Project Management\\
-  Data Science Best Practices \& Community Development\\
-  
-  \vspace{10pt}
-  
-  \subsection{Contributing}
-  Statistical Modeling\\
-  Multivariate Statistics\\
-  Data Mining \& Machine Learning\\
-  Model \& Process Automation\\
-  Software \& Data Engineering\\
-  Data Visualization\\
-  Teaching \& Public Speaking\\
-
-  \sectionspace % Some whitespace after the section
-  \vspace{3pt}
-  % ------------------------------------------------
-  % Technologies
-  % ------------------------------------------------
-
-  \sectionspace % Some whitespace after the section
-  \vspace{3pt}
-  % ------------------------------------------------
-  % Programming
-  % ------------------------------------------------
-  % \subsection{Languages}
-  % {\bf Strong\\}
-  % R\\
-  % SQL\\
-  % \vspace{4pt}
-  % {\bf{Familiar\\}}
-  % Python\\
-  % Java\\
-  % \vspace{4pt}
-
-  % ----------------------------------------------------------------------------------------
-
+		\subsection{Contribution}
+		\begin{itemize}[leftmargin=*,  nosep]
+			\item[$\cdot$] AI Solution Design
+			\item[$\cdot$] Statistical Modeling
+			\item[$\cdot$] Multivariate Statistics
+			\item[$\cdot$] Data Mining \& Machine Learning
+			\item[$\cdot$] Model \& Process Automation
+			\item[$\cdot$] Software \& Data Engineering
+			\item[$\cdot$] Data Visualization
+			\item[$\cdot$] Teaching \& Public Speaking
+		\end{itemize}
+		\sectionspace
 \end{minipage} % The end of the left column
 \hfill
-% 
-% ----------------------------------------------------------------------------------------
-%	RIGHT COLUMN
-% ----------------------------------------------------------------------------------------
-% 
-\begin{minipage}[t]{0.68\textwidth}
-  % ------------------------------------------------
-  % Objective
-  % ------------------------------------------------
-  % \section{Summary}
-  % I am a data scientist and statistician with a strong background in
-  % both software development and statistical analysis.  My experience in
-  % teaching and research has allowed me the opportunity to not only learn
-  % and implement a variety of statistical and machine learning models,
-  % but also hone my presentation skills and work closely with experts in a
-  % variety of fields.  My goal is to find a challenging
-  % position where I can solve novel problems and make data-driven
-  % policy recommendations.
+\begin{minipage}[t]{0.65\textwidth}
+	\section{Experience}
+		\runsubsection{The Hartford}\hfill\location{Hartford, CT\\}
+		\sectionspace
 
-  % ------------------------------------------------
-  % Experience
-  % ------------------------------------------------
-
-  \section{Experience}
-  \runsubsection{The Hartford}\hfill\location{Hartford, CT\\}
-  \sectionspace
-  
-  \subsection{\emph{Claims \& Operations Data Science}}
-  
-  \descript{AVP Data Science | Emerging Sciences}\hfill
-  \location{Jan. '25 - Present\\}
-  \descript{Dir. Data Science | Emerging Sciences}\hfill
-  \location{Dec. '23 - Jan '25\\}
-  \vspace{\topsep}
-  \begin{tightitemize}
-    \item Lead Data Science and AI team building and continuing to expand the first fully automated, large scale GenAI summarization \&
-      information extraction solution at The Hartford for over 2,000 daily active users. 
-      Now fully released, this capability is expected to provide more than \$5mm in annual expense benefit 
-      by summarizing medical Records related to WC and EB claims.
-    \item Proved viability and established benefit estimates of our summarization engine quickly by prototyping and 
-      deployed non-integrated Test \& Learn less than 8 weeks and full production pilot, including a rebuild upstream dependencies for summarization, 
-      in less than 12 weeks.
-    \item Tightly Coordinated with more than a dozen Data Science, Technology, Strategy, and Claims teams
-      to plan, validate, and execute production roll-out of GenAI work within the Claims space.
-    \item Partner closely with centralized Data Science \& AI Acceleration \& Platform teams to prototype and
-    identify MVP requirements for emergent AI solutions, including workflow and autonomous agentic solutions.
-    \item Proposed and established the first fully-federated Line of Business GenAI team with The Hartford.
-    \item Continue to participate in the creation of long term capability roadmaps for GenAI 
-      use-cases with Claims \& Operations, identifying both opportunities for production 
-      work and an experimental/POC backlog.
-    \item Participated in vendor engagements for POCs and demos in addition to coordinating
-      training \& enablement with external partners like AWS and Anthropic.
-  \end{tightitemize}
-  \sectionspace
-  
-  \descript{Dir. Data Science | WC \& EB Claims}\hfill
-  \location{July '22 - Dec '23\\}
-  %\vspace{\topsep}
-  \begin{tightitemize}
-    \item Built and maintained ML \& AI models in a robust portfolio of solutions designed to triage, automate, or 
-    identify claims for specialist intervention (e.g., fraud, clinical, financial risk).
-    \item Oversaw five production releases of model-driven solutions in both batch and real time
-      delivery frameworks with my first year on the team.
-    \item Matured monitoring, bias detection \& mitigation, and other model lifecycle management practices across Claims Data Science.
-    \item Took a leadership role in a complete overhaul of Data Science job families
-      across the enterprise.
-  \end{tightitemize}
-  \sectionspace
-  
-  \runsubsection{Actuarial Technology \& Innovation (AcTech)\\}
-  \descript{Dir. Data Science | AcTech Pricing \& Consulting}\hfill
-  \location{Sept. '21 - July '22\\}
-  %\vspace{\topsep}
-  \begin{tightitemize}
-  \item Owned the suite of Commercial Lines Risk Score \& Pricing models
-    and the monitoring, modeling, and deployment infrastructure needed
-    to maintain them. The total portfolio allocated over \$3bn in in-force
-    premium across Auto, Property, General Liability, and
-    Workers Compensation for both Middle \& Large and Small Commercial
-    policies.
-  \item Managed and mentored data scientists, engineers, and actuaries assigned to both
-   Consulting and Pricing work streams.
-
-  \end{tightitemize}
-  \sectionspace
-
-  
-
-  
-
-  
-
-  % \location{See LinkedIn for full work history.}
-
-\end{minipage} % The end of the right column
+		\subsection{\emph{Employee Benefits Applied AI \& Analytics}}
+			\descript{AVP Applied AI}\hfill
+			\location{Sept. '25 - Present\\}
+			\vspace{\topsep}
+			\begin{tightitemize}
+				\item Lead a team of Data \& AI Scientists, Data \& AI/ML Engineers, and Technical Product Owners responsible for building generative AI, agentic AI, statistical modeling, machine learning products to support a \$6.5bn Benefits portfolio through automation and augmentation.
+				\item Support maintenance, monitoring, and continuous improvement for a diverse portfolio of statistical \& machine learning products embedded in pricing/rating, reserving, and workflow triage for underwriting, marketing, and enrollment campaigns.
+				\item Lead planning \& execution of agentic AI builds for an end-to-end reimagination of The Hartford's ongoing service capabilities for Benefits customers, unlocking \$8mm in annual expense savings while improving customer experience through decreased turnaround time and increased transparency.
+				\item Coordinate timelines, dependencies, and resource planning for strategic invest initiatives with blended teams from Employee Benefits' various business, IT, Data, and Applied AI organizations.
+				\item Provide thought partnership and governance support for future AI investment and execution of democratized and vendor-provided AI capabilities across Employee Benefits value streams.
+			\end{tightitemize}
+		\sectionspace
+		
+		\subsection{\emph{Claims \& Operations Emerging Sciences \& AI}}
+			\descript{AVP Applied AI}\hfill
+			\location{Jan. '25 - Sept '25\\}
+			\descript{Director of Data Science}\hfill
+			\location{Dec. '23 - Jan '25\\}
+			%\vspace{\topsep}
+			\begin{tightitemize}
+				\item Partnered with Claims, Transformation Office, and other AI leaders to define The Hartford's Claims AI strategy including document summarization \& concept extraction, knowledge advisors, and autonomously processing workloads.
+				\item Lead planning, testing, deployment, and refinement of The Hartford's Medical Records Summarization  capbility.  This Chairman's Awarding-winning project was the first large-scale, custom-built Generative AI application at The Hartford and provides more than \$5mm in annual expense benefit through efficiency savings and improved decision-making in Workers' Compensation and Disability claims.
+				\item Provided line-of-business leadership in the prototyping and build of AI Agents capable of reliably making key decision in the life of claims in various lines of business including Auto, Property, and Workers' Compensation.
+				\item Conducted evaluations of AI-enabled vendor products to inform strategy build vs. buy decisions for the claims portfolio.
+			\end{tightitemize}
+		\sectionspace
+		
+		\subsection{\emph{Workers' Compensation \& Employee Benefits Claims}}
+			\descript{Director of Data Science}\hfill
+			\location{July '22 - Dec '23\\}
+			\begin{tightitemize}
+				\item Built and maintained ML \& AI models in a robust portfolio of solutions designed to triage, automate, or identify claims for specialist intervention (e.g., fraud, clinical, financial risk).
+				\item Oversaw five production releases of model-driven solutions in both batch and real time delivery frameworks during my first year on the team.
+				\item Matured monitoring, bias detection \& mitigation, and other model lifecycle management practices across Claims Data Science.
+			\end{tightitemize}
+\end{minipage}
 \newpage
 
-% ------------------------------------------------------------------
 % Page 2
-% ------------------------------------------------------------------
-
-% ----------------------------------------------------------------------------------------
-%	TITLE SECTION
-% ----------------------------------------------------------------------------------------
-
 \namesection{Doug}{Raffle}{ % Your name
-  \bf{\href{mailto:raffled@gmail.com}{raffled@gmail.com}} $\;$|$\;$
-  \urlstyle{same}\url{www.dougraffle.com} $\;$|$\;$
-  \bf{724.518.7446}
+	\bf{\href{mailto:raffled@gmail.com}{raffled@gmail.com}} $\;$|$\;$
+	\urlstyle{same}\url{www.dougraffle.com} $\;$|$\;$
+	\bf{724.518.7446}
 }
 
 
-% \begin{minipage}[t]{0.3\textwidth} % The left column takes up 33% of
-%   % the text width of the page
-% \end{minipage} % The end of the left column
-
-% \hfill
-% \hfill
-
 \begin{minipage}[t]{0.9\textwidth}
-
-  \section{Experience (Cont'd)}
-  
-  \descript{Dir. Data Science | AcTech Consulting}\hfill
-  \location{Mar. '21 - Sept. '21\\}
-  \vspace{\topsep}
-  \begin{tightitemize}
-  \item  Expanded the AcTech Consulting team from just myself and one
-    associate data scientist to a diverse team of five data scientists
-    and data engineers in a year. 
-  \item Broadened the scope of the Consulting portfolio from modeling focused projects to
-    also include data engineering efforts (e.g., building new data
-    pipelines, process re-engineering, building interactive
-    analytical/reporting apps).
-  \item Consulted with Actuarial leadership on the adoption of emerging
-    technologies/platforms and incorporating statistical modeling,
-    machine learning, and modern data technologies into their business
-    processes.
-  \end{tightitemize}
-  \sectionspace
-  
-  \descript{Sr. Data Scientist | AcTech Training}\hfill\location{Oct. '18 - Mar. '21\\}
-  % \vspace{\topsep}
-  \begin{tightitemize}
-  \item   Founded the AcTech Consulting team, which works across the Actuarial
-    organization and helped to accelerate modeling and automation
-    focused projects across all lines of business. 
-  \item Fit a variety of statistical models and machine learning
-    algorithms to modernize or enhance existing Actuarial processes
-    (e.g., stochastic reserve modeling, modeled rate indications, claim-level
-    loss development) and worked with Actuarial partners to integrate
-    these insights into their workflows.
-  \item Designed curriculum for and conducted classroom-based training in an
-    intensive 8-week program for actuaries. This evolving course teaches modern data
-    science techniques and data technologies and includes a hands-on
-    capstone project.
-  \end{tightitemize}
-  \sectionspace
-  
-  \runsubsection{Small Commercial Data Science\\}
-  \descript{Data Scientist | Underwriting Triage}\hfill
-  \location{Feb. '17 - Oct. '18\\}
-  % \vspace{\topsep}
-  \begin{tightitemize}  
-  \item Designed and implemente model
-    scoring engine to serve live predictions from a suite of machine
-    learning algorithms (via a RESTful web service) as part of a Chairman's Award-winning
-    initiative to streamline the quoting process for customers.
-  \item Fit machine learning algorithms to predict customer characteristics, triage new and
-  renewal business, and generally assist in the underwriting process using
-    large first and third party data sources.
-  \end{tightitemize}
-  \sectionspace
-  
-  \runsubsection{Mylan Labs (Viatris)}\hfill\location{Morgantown, WV\\}
-  \descript{Specialist | Commercial Analytics}\hfill\location{Sept. '15 - Jan. '17\\}
-  \begin{tightitemize}
-  \item Acted as an internal consultant, using statistical models and machine
-    learning algorithms to 
-    analyze Mylan's products, customers, and competitors using R and
-    other statistical packages.
-  \item Designed presentations summarizing Mylan's major product markets,
-    including product and competitor performance, for senior leadership.
-  \item Modernized reporting and presentation workflows using Tableau and
-    Shiny to create streamlined, interactive dashboards.
-  \end{tightitemize}
-  \sectionspace % Some whitespace after the section
-
-  % ------------------------------------------------
-
-  \runsubsection{California University of Pennsylvania}\hfill\location{California, PA\\}
-  \descript{Lecturer | Business Statistics}\hfill
-  \location{Jan. '16 - Dec. '16\\}
-  \begin{tightitemize}
-  \item Used real world experience as a data scientist to introduce
-    students from the business college to the concepts they'll need to
-    work in a modern, data-driven  business environment.
-  \end{tightitemize}
-  \sectionspace % Some whitespace after the section
-
-  % ------------------------------------------------
-
-  % \runsubsection{West Virginia University}\hfill\location{Morgantown, WV\\}
-  % \descript{Graduate Teaching Assistant}\hfill\location{Aug. '13 - Aug. '15\\}
-  % % \vspace{\topsep} % Hacky fix for awkward extra vertical space
-  % \begin{tightitemize}
-  % \item Taught and designed coursework for laboratory and
-  %   lecture sections of undergraduate Statistics courses.
-  % \item Worked with the director of the Master's of Data Science program
-  %   to design online coursework.
-  % \end{tightitemize}
-
-  \sectionspace
-  
-  \section{Awards \& Honors}
-  \descript{Tech \& Ops Visionary Award: Medical Records Summarization}\hfill\location{2024}\\
-  \descript{Chairman's Award: Small Business Owner Score}\hfill\location{2018}\\
-  \descript{WVU Outstanding Graduate Teaching Assistant}\hfill\location{2014}\\
-  
-  \sectionspace
-  
-  \section{Volunteer/Service Experience}
-  \descript{RiderCoach, Motorcycle Safety Foundation}\hfill\location{2023+}\\
-  \descript{Mentor, Correlation One / Data Science for All (DS4A)}\hfill\location{2021}\\
-  \descript{Math Buddy, HIG Math \& Reading Buddies}\hfill\location{2018-2019}\\
-  
-  
-  
-  % 
-  % \runsubsection{HIG Math \& Reading Buddies}\hfill\location{Hartford, CT\\}
-  % \descript{Math Buddy}\hfill
-  % \location{Sept. '18 - May '19\\}
-  % \begin{tightitemize}
-  % \item  Worked with 4th grade math students in a downtown Hartford
-  %   school to help teach them mathematics skills and introduce them to
-  %   math-focused careers. 
-  % \end{tightitemize}
+	\section{Experience (Cont'd)}
+		\runsubsection{Actuarial Technology \& Innovation\\}
+			\descript{Director of Data Science, Pricing \& Consulting}\hfill
+			\location{March '21 - July '22\\}
+			\descript{Sr. Data Scientist}\hfill\location{Oct. '18 - Mar. '21\\}
+			\vspace{\topsep}
+			\begin{tightitemize}
+				\item Lead the portfolio of Business Insurance Risk Score \& Pricing models and the monitoring, modeling, and deployment infrastructure needed to maintain them. The total portfolio allocated over \$3bn in in-force premium across Auto, Property, General Liability, and Workers Compensation for Small, Middle \& Large and Business policies.
+				\item Founded and expanded the AcTech Consulting team, which worked across the Actuarial organization and helped to accelerate modeling and automation focused projects across all lines of business. 
+				\item Consulted with Actuarial leadership on the adoption of emerging technologies/platforms and incorporating statistical modeling, machine learning, and modern data technologies into their business processes.
+				\item Build a variety of solutions using statistical models and machine learning algorithms to modernize or enhance existing Actuarial processes (e.g., stochastic reserve modeling, modeled rate indications, claim-level loss development) and worked with Actuarial partners to integrate these insights into their workflows.
+				\item Designed curriculum for and conducted classroom-based training in an intensive 8-week program for actuaries. This evolving course teaches modern data science techniques and data technologies and includes a hands-on capstone project.
+			\end{tightitemize}
+		\sectionspace
+		
+		\runsubsection{Small Business Data Science\\}
+			\descript{Data Scientist}\hfill
+			\location{Feb. '17 - Oct. '18\\}
+			% \vspace{\topsep}
+			\begin{tightitemize}  
+				\item Designed and implemented model scoring engine to serve live predictions from a suite of machine learning algorithms (via a RESTful web service) as part of a Chairman's Award-winning initiative to streamline the quoting process for customers.
+				\item Fit machine learning algorithms to predict customer characteristics, triage new and renewal business, and generally assist in the underwriting process using large first and third party data sources.
+			\end{tightitemize}
+		\sectionspace
+		
+		\runsubsection{Mylan Labs (Viatris)}\hfill\location{Morgantown, WV\\}
+			\descript{Specialist, Commercial Analytics}\hfill\location{Sept. '15 - Jan. '17\\}
+			\begin{tightitemize}
+				\item Acted as an internal consultant, using statistical models and machine learning algorithms to analyze Mylan's products, customers, and competitors using R and other statistical packages.
+				\item Designed presentations summarizing Mylan's major product markets, including product and competitor performance, for senior leadership.
+				\item Modernized reporting and presentation workflows using Tableau and Shiny to create streamlined, interactive dashboards.
+			\end{tightitemize}
+		\sectionspace
+		
+		\runsubsection{California University of Pennsylvania}\hfill\location{California, PA\\}
+			\descript{Lecturer | Business Statistics}\hfill
+			\location{Jan. '16 - Dec. '16\\}
+			\begin{tightitemize}
+				\item Used real world experience as a data scientist to introduce students from the business college to the concepts they'll need to work in a modern, data-driven  business environment.
+			\end{tightitemize}
+		\sectionspace
+		
+		
+		\sectionspace
+		
+		\section{Awards \& Honors}
+			\descript{Tech \& Ops Visionary Award: Medical Records Summarization}\hfill\location{2024}\\
+			\descript{Chairman's Award: Small Business Owner Score}\hfill\location{2018}\\
+			\descript{WVU Outstanding Graduate Teaching Assistant}\hfill\location{2014}\\
+		
+		\sectionspace
+		
+		\section{Volunteer/Service Experience}
+			\descript{RiderCoach, Motorcycle Safety Foundation}\hfill\location{2023 - Present}\\
+			\descript{Mentor, Correlation One / Data Science for All (DS4A)}\hfill\location{2021}\\
+			\descript{Math Buddy, HIG Math \& Reading Buddies}\hfill\location{2018-2019}\\
 
 \end{minipage}
 \end{document}
